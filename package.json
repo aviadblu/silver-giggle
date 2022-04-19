@@ -1,0 +1,26 @@
+{
+  "name": "silver-giggle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client-dev": "nodemon --watch client.js client.js",
+    "worker-dev": "nodemon --watch worker.js worker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aviadblu/silver-giggle.git"
+  },
+  "keywords": [],
+  "author": "Aviad Blumenfeld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aviadblu/silver-giggle/issues"
+  },
+  "homepage": "https://github.com/aviadblu/silver-giggle#readme",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3"
+  }
+}
